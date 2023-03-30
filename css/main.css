@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: color_change 18s infinite;
+}
+
+body {
+    cursor: url(../img/kyrsor.ico);
+  }
+
+ @keyframes color_change {
+    0% {background-color: red;}
+    25% {background-color: orange;}
+    50% {background-color: yellow;}
+    75% {background-color: blue;}
+    100% {background-color: red;}
+    }
+
+p{
+    color: #FFFFFF;
+    font-family: 'Five Years Later Demo';
+}
+
+.cursor{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    background-image: url(../img/kyrsor.png); 
+}
+
+.verx{
+    position: absolute;
+    height: 85px;
+    width: 100vw;
+    top: 40px;
+    font-family: 'Hero';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+
+.zagolovok{
+    font-family: 'Five Years Later Demo';
+    font-style: normal;
+    position: absolute;
+    width: 811px;
+    height: 305px;
+    font-weight: 400;
+    font-size: 60px;
+    left: 173px;
+    top: 274px;
+}
+
+.cat1{
+    position: absolute;
+    width: 614px;
+    height: 679px;
+    left: 807px;
+    top: 261px;
+}
+
+.cat2{
+    position: absolute;
+    width: 614px;
+    height: 679px;
+    left: 1350px;
+    top: 234px;
+}
+
+.cat3{
+    position: absolute;
+    width: 614px;
+    height: 679px;
+    left: 1121px;
+    top: 254px;
+}
+
+.cat4{
+    position: absolute;
+    width: 614px;
+    height: 679px;
+    left: 1300px;
+    top: 251px;
+}
+
+.cat5{
+    position: absolute;
+    width: 614px;
+    height: 679px;
+    left: 907px;
+    top: 261px;
+}
+
+/*анимация шрекоса*/
+
+.kek2{
+    position: absolute;
+    width: 1181px;
+    height: 1108px;
+    left: -241px;
+    top: 771px;
+    animation: keko2 1s infinite;
+}
+
+@keyframes keko2 {
+    0%{ opacity: 1 ; }
+    50%{ opacity: 0 ; rotate: -30deg; }
+    100%{ opacity: 1; rotate: 30deg;}
+}
+
+.kek3{
+    position: absolute;
+    width: 1181px;
+    height: 1108px;
+    left: -241px;
+    top: 771px;
+    animation: keko 1s infinite;
+}
+
+@keyframes keko {
+    0%{ opacity: 0 ; }
+    50%{ opacity: 1 ; rotate: -30deg; }
+    100%{ opacity: 0; rotate: 30deg;}
+}
+
+/*анимация надписи*/
+
+.com1{
+    position: absolute;
+    width: 980px;
+    height: 90px;
+    left: 954px;
+    top: 1280px;
+    font-size: 100px;
+    line-height: 101px;
+    animation: com 0.1s infinite;
+}
+
+@keyframes com {
+    0%{ left: 954px; rotate: 0deg;}
+    30%{ left: 952px; rotate: 3deg;}
+    60%{ left: 950px; rotate: -1deg;}
+    100%{ left: 952px; rotate: 1deg;}
+}
+
+/*анимация чимса*/
+
+#dogs{
+    width: 900px;
+    height: 1000px;
+    background-image: url(../img/small_dog.png);
+    position: absolute;
+    right: 0%;
+    top: 1655px;
+}
+
+#dogs:hover{
+    background-image: url(../img/big_dog.png); 
+}
+
+.battom{ 
+    position: absolute;
+    left: 52px;
+    top: 2040px;
+}
+
+/*анимация кротовухи*/
+
+.kroto{
+    animation: kro 15s infinite;
+}
+
+@keyframes kro{
+    0% { right: - 1913px;}
+    100% { right: 100%;}
+}
+
+.kroto1{
+    position: absolute;
+    width: 696px;
+    height: 742px;
+    left: 3px;
+    top: 2600px;
+}
+
+.kroto2{
+    position: absolute;
+    width: 696px;
+    height: 742px;
+    left: 612px;
+    top: 2600px;
+}
+
+.kroto3{
+    position: absolute;
+    width: 696px;
+    height: 742px;
+    left: 1217px;
+    top: 2600px;
+}
+
+.kroto1{
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+ 
+.kroto1:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.kroto2{
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+ 
+.kroto2:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.kroto3{
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+ 
+.kroto3:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
