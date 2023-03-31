@@ -1,2 +1,8 @@
 @import "reset.css";
 @import "main.css";
+@font-face {
+    font-family: "Five Years Later";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Five_Years_Later.otf") format("otf"),
+}
