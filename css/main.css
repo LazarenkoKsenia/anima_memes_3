@@ -178,3 +178,11 @@ background-image: url(../img/batt.png);
     transform: rotate(360deg);
 }
 
+#noti{
+    opacity: 0;
+}
+
+#noti:hover{
+    opacity: 1; 
+}
+
