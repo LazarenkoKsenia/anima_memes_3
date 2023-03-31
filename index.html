@@ -30,9 +30,21 @@
 </div>
  
 <div class="container4">
-  <img class="battom" src="./img/batt.png" alt="">
+  <div class="page">
+		<button id="button" onclick="changeColor();"></button>
+	</div>
   <div id ="dogs"> </div>  
 </div>
+
+<script>
+const button = document.getElementById('button');
+const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'rebeccapurple', 'violet'];
+
+function changeBackground(){
+	document.body.style.background = rainbow[Math.floor(7 * Math.random())];	
+}
+button.addEventListener('click', changeBackground);
+</script>
 
 <div class="container5" >
   <img class="kroto1" src="./img/kroto.png" alt="">
