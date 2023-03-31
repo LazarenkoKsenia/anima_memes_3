@@ -49,6 +49,7 @@ p{
 
 .zagolovok{
     position: relative;
+    left: 80px;
     width: 811px;
     height: 305px;
     font-size: 60px;
@@ -56,8 +57,13 @@ p{
 
 .cat{
     position: relative;
-    width: 614px;
-    height: 679px;
+    animation: cato 1s infinite;
+}
+
+@keyframes cato {
+    0%{  rotate: 0deg;}
+    50%{ rotate: 8deg;}
+    100%{ rotate: 0deg;}
 }
 
 .container3{
@@ -69,10 +75,17 @@ p{
     width: 100vw;
     height: 800px;
 }
-
-
-
     /*анимация надписи*/
+
+.kek2{
+    animation: com 1s infinite;
+}
+
+@keyframes{
+    0% { opacity:1 background-image: url(../img/kek2.png);;}
+    50% { opacity:0 rotate: -30deg background-image: url(../img/kek3.png); ;}
+    50% { opacity:1 rotate: 30deg background-image:url(../img/kek2.png);;}
+}
 
 .com1{
     position: relative;
@@ -89,7 +102,6 @@ p{
     100%{ rotate: 1deg;}
 }
 
-
 .container4{
     position: relative;
     display: flex;
@@ -103,7 +115,7 @@ p{
 /*анимация чимса*/
 
 #dogs{
-    width: 800px;
+    width: 750px;
     height: 755px;
     background-image: url(../img/small_dog.png);
     position: relative;
@@ -168,3 +180,4 @@ p{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
