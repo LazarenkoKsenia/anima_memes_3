@@ -8,7 +8,7 @@ body{
 
 p{
     color: #FFFFFF;
-    font-family: 'Five Years Later';
+    font-family: 'Five Years Later Demo';
     font-weight: 400;
 }
 
@@ -74,9 +74,9 @@ p{
 }
 
 @keyframes{
-    0% { opacity:1 background-image: url(../img/kek2.png);;}
-    50% { opacity:0 rotate: -30deg background-image: url(../img/kek3.png); ;}
-    50% { opacity:1 rotate: 30deg background-image:url(../img/kek2.png);;}
+    0% { opacity: 1; background-image: url(../img/kek2.png)};
+    50% { opacity: 0;rotate: -30deg background-image: url(../img/kek3.png)};
+    50% { opacity: 1; rotate: 30deg background-image:url(../img/kek2.png)};
 }
 
 .com1{
